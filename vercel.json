@@ -1,9 +1,17 @@
 {
   "version": 2,
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/index.py"
-    }
+    { "source": "/api/(.*)", "destination": "/api/index.py" },
+    { "source": "/auth/(.*)", "destination": "/api/index.py" },
+    { "source": "/cameras(.*)", "destination": "/api/index.py" },
+    { "source": "/alerts(.*)", "destination": "/api/index.py" },
+    { "source": "/detections(.*)", "destination": "/api/index.py" },
+    { "source": "/vehicles(.*)", "destination": "/api/index.py" },
+    { "source": "/watchlist(.*)", "destination": "/api/index.py" },
+    { "source": "/routes/(.*)", "destination": "/api/index.py" },
+    { "source": "/audit-logs(.*)", "destination": "/api/index.py" },
+    { "source": "/health", "destination": "/api/index.py" },
+    { "source": "/docs", "destination": "/api/index.py" },
+    { "source": "/openapi.json", "destination": "/api/index.py" }
   ]
 }
