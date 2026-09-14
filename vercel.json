@@ -1,17 +1,23 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.py" },
-    { "source": "/auth/(.*)", "destination": "/api/index.py" },
-    { "source": "/cameras(.*)", "destination": "/api/index.py" },
-    { "source": "/alerts(.*)", "destination": "/api/index.py" },
-    { "source": "/detections(.*)", "destination": "/api/index.py" },
-    { "source": "/vehicles(.*)", "destination": "/api/index.py" },
-    { "source": "/watchlist(.*)", "destination": "/api/index.py" },
-    { "source": "/routes/(.*)", "destination": "/api/index.py" },
-    { "source": "/audit-logs(.*)", "destination": "/api/index.py" },
-    { "source": "/health", "destination": "/api/index.py" },
-    { "source": "/docs", "destination": "/api/index.py" },
-    { "source": "/openapi.json", "destination": "/api/index.py" }
+    { "source": "/api/(.*)", "destination": "/api/index.py?__path=/api/$1" },
+    { "source": "/auth/(.*)", "destination": "/api/index.py?__path=/auth/$1" },
+    { "source": "/cameras/(.*)", "destination": "/api/index.py?__path=/cameras/$1" },
+    { "source": "/cameras", "destination": "/api/index.py?__path=/cameras" },
+    { "source": "/alerts/(.*)", "destination": "/api/index.py?__path=/alerts/$1" },
+    { "source": "/alerts", "destination": "/api/index.py?__path=/alerts" },
+    { "source": "/detections/(.*)", "destination": "/api/index.py?__path=/detections/$1" },
+    { "source": "/detections", "destination": "/api/index.py?__path=/detections" },
+    { "source": "/vehicles/(.*)", "destination": "/api/index.py?__path=/vehicles/$1" },
+    { "source": "/vehicles", "destination": "/api/index.py?__path=/vehicles" },
+    { "source": "/watchlist/(.*)", "destination": "/api/index.py?__path=/watchlist/$1" },
+    { "source": "/watchlist", "destination": "/api/index.py?__path=/watchlist" },
+    { "source": "/routes/(.*)", "destination": "/api/index.py?__path=/routes/$1" },
+    { "source": "/audit-logs/(.*)", "destination": "/api/index.py?__path=/audit-logs/$1" },
+    { "source": "/audit-logs", "destination": "/api/index.py?__path=/audit-logs" },
+    { "source": "/health", "destination": "/api/index.py?__path=/health" },
+    { "source": "/docs", "destination": "/api/index.py?__path=/docs" },
+    { "source": "/openapi.json", "destination": "/api/index.py?__path=/openapi.json" }
   ]
 }
