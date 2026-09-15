@@ -25,7 +25,6 @@
 > | Resource | Access Link | Access Level / Details |
 > | :--- | :--- | :--- |
 > | **🚀 Primary Production URL** | **[https://digitaldrishti.vercel.app](https://digitaldrishti.vercel.app)** | Full Command & Control Operating Platform |
-> | **⚡ Edge Deployment Mirror** | [https://drishti-cctv-bkkn7ou79-spark-e9ea.vercel.app](https://drishti-cctv-bkkn7ou79-spark-e9ea.vercel.app) | Direct Vercel serverless deployment URL |
 > | **🛡️ Administrator Login** | `admin` &nbsp;/&nbsp; `sentinel_admin` | Full Command Access (30 CCTV Nodes, Analytics, GIS Map, Audit Logs) |
 > | **👮 Tactical Officer Login** | `officer1` &nbsp;/&nbsp; `sentinel_officer` | Operational Command (Live Stream Grid, Vehicle Tracer, Alerts) |
 > | **🗄️ Cloud Database** | **Supabase PostgreSQL 17** | Pre-seeded with 30 Cameras, 420 Detections, and 11 Incident Alerts |
