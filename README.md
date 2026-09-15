@@ -7,7 +7,6 @@
 *An enterprise-grade, high-throughput AI surveillance & intelligence operating system that transforms live municipal CCTV video feeds into searchable, real-time, mission-critical law enforcement intelligence.*
 
 [![Live Production](https://img.shields.io/badge/Live%20Platform-digitaldrishti.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://digitaldrishti.vercel.app)
-[![Upstream Repo](https://img.shields.io/badge/Upstream%20Repo-MazedOut%2FSentinel--Gujarat--CCTV--Platform-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MazedOut/Sentinel_Gujarat_CCTV_Platform)
 [![Database](https://img.shields.io/badge/Cloud%20Database-Supabase%20PostgreSQL%2017-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
 [![Status](https://img.shields.io/badge/System%20Status-Operational%20%E2%9C%94-brightgreen?style=for-the-badge)](#)
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -26,7 +25,6 @@
 > | Resource | Access Link | Access Level / Details |
 > | :--- | :--- | :--- |
 > | **🚀 Primary Production URL** | **[https://digitaldrishti.vercel.app](https://digitaldrishti.vercel.app)** | Full Command & Control Operating Platform |
-> | **📦 Official Upstream Repository** | **[MazedOut/Sentinel_Gujarat_CCTV_Platform](https://github.com/MazedOut/Sentinel_Gujarat_CCTV_Platform)** | Primary Upstream Source Code Repository |
 > | **🛡️ Administrator Login** | `admin` &nbsp;/&nbsp; `sentinel_admin` | Full Command Access (30 CCTV Nodes, Analytics, GIS Map, Audit Logs) |
 > | **👮 Tactical Officer Login** | `officer1` &nbsp;/&nbsp; `sentinel_officer` | Operational Command (Live Stream Grid, Vehicle Tracer, Alerts) |
 > | **🗄️ Cloud Database** | **Supabase PostgreSQL 17** | Pre-seeded with 30 Cameras, 420 Detections, and 11 Incident Alerts |
