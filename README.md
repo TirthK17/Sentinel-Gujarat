@@ -6,14 +6,31 @@
 
 *An enterprise-grade, high-throughput AI surveillance & intelligence operating system that transforms live municipal CCTV video feeds into searchable, real-time, mission-critical law enforcement intelligence.*
 
-[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Live Production](https://img.shields.io/badge/Live%20Platform-digitaldrishti.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://digitaldrishti.vercel.app)
+[![Database](https://img.shields.io/badge/Cloud%20Database-Supabase%20PostgreSQL%2017-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
+[![Status](https://img.shields.io/badge/System%20Status-Operational%20%E2%9C%94-brightgreen?style=for-the-badge)](#)
+[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8%20%2B%20ByteTrack-Realtime%20Tracking-FF6B35?style=for-the-badge)](https://ultralytics.com)
-[![PaddleOCR](https://img.shields.io/badge/PaddleOCR-High%20Accuracy%20ANPR-007ACC?style=for-the-badge)](https://github.com/PaddlePaddle/PaddleOCR)
-[![HLS.js](https://img.shields.io/badge/HLS.js-AES--128%20Zero--Latency-E50914?style=for-the-badge)](https://github.com/video-dev/hls.js)
-[![Leaflet GIS](https://img.shields.io/badge/GIS%20Mapping-OpenStreetMap%20%2B%20OSRM-199900?style=for-the-badge&logo=leaflet&logoColor=white)](https://leafletjs.com)
 [![Classification](https://img.shields.io/badge/Classification-Gujarat%20Police%20Restricted-red?style=for-the-badge)](#)
+
 </div>
+
+---
+
+> [!IMPORTANT]
+> ### 🌐 LIVE PRODUCTION CLOUD DEPLOYMENT & JURY EVALUATION PORTAL
+> 
+> **Drishti is deployed and operational on Vercel Global Edge CDN, backed by Supabase Cloud PostgreSQL!**
+> 
+> | Resource | Access Link | Access Level / Details |
+> | :--- | :--- | :--- |
+> | **🚀 Primary Production URL** | **[https://digitaldrishti.vercel.app](https://digitaldrishti.vercel.app)** | Full Command & Control Operating Platform |
+> | **⚡ Edge Deployment Mirror** | [https://drishti-cctv-bkkn7ou79-spark-e9ea.vercel.app](https://drishti-cctv-bkkn7ou79-spark-e9ea.vercel.app) | Direct Vercel serverless deployment URL |
+> | **🛡️ Administrator Login** | `admin` &nbsp;/&nbsp; `sentinel_admin` | Full Command Access (30 CCTV Nodes, Analytics, GIS Map, Audit Logs) |
+> | **👮 Tactical Officer Login** | `officer1` &nbsp;/&nbsp; `sentinel_officer` | Operational Command (Live Stream Grid, Vehicle Tracer, Alerts) |
+> | **🗄️ Cloud Database** | **Supabase PostgreSQL 17** | Pre-seeded with 30 Cameras, 420 Detections, and 11 Incident Alerts |
+>
+> 💡 *On the login portal, click on the **Administrator** or **Police Officer** quick-fill badge to immediately test the platform with zero friction.*
 
 ---
 
@@ -467,8 +484,9 @@ http://localhost:8000/ui/
 
 ## 📚 Detailed Documentation Archive
 
-For in-depth technical specifications and deep-dives, please refer to the `docs/` directory:
+For in-depth technical specifications and deep-dives, please refer to the documentation files:
 
+- [🚀 15-Minute Cloud Deployment Guide (Vercel + Supabase)](DEPLOYMENT_GUIDE_VERCEL_SUPABASE.md) — Step-by-step cloud production guide with pooler setup and live URLs.
 - [Tech Stack & Technologies Used](docs/tech_stack.md) - Comprehensive list of all frameworks, libraries, and tools.
 - [Architecture Deep Dive](docs/architecture_deep_dive.md) - High-level system architecture and component interactions.
 - [AI Pipeline & Inference Workflow](docs/ai_pipeline.md) - YOLO vehicle detection, ByteTrack, and PaddleOCR pipeline.
